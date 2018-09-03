@@ -59,7 +59,6 @@ int main()
     F[a[r]]++;
     if(F[a[r]]==1)
     dc++;
-    //cout<<dc<<" ";
     }
     while(r>vect[i].second.first)
     {
@@ -67,7 +66,6 @@ int main()
     if(F[a[r]]==0)
     dc--;
     r--;
-    //cout<<dc<<" ";
     }
     while(l<vect[i].first)
     {
@@ -75,7 +73,6 @@ int main()
     if(F[a[l]]==0)
     dc--;
     l++;
-    //cout<<dc<<" ";
     }
     while(l>vect[i].first)
     {
@@ -83,7 +80,6 @@ int main()
     F[a[l]]++;
     if(F[a[l]]==1)
     dc++;
-    //cout<<dc<<" ";
     }
     dc1[vect[i].second.second]=dc;
     }
